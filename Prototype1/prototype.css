@@ -9,6 +9,21 @@ body {
   font-family: serif;
 }
 
+input {
+  text-align: center;
+}
+
+.next-button {
+  margin-top: 51px;
+  margin-bottom: 52px;
+  text-align: center;
+}
+
+.proceed {
+  width: 200px;
+  height: 100px;
+}
+
 #screen {
   box-sizing: content-box;
 }
@@ -17,7 +32,7 @@ body {
   color: white;
   text-align: center;
   text-shadow: 1px 1px #000000;
-  background-color: rgba(255, 0, 0, 0.8);
+  background-color: rgba(115, 8, 131, 0.5);
   font-size: 25px;
 }
 
@@ -34,8 +49,8 @@ body {
 
 .icon-image {
   object-fit: scale-down;
-  height: 25px;
-  width: 25px;
+  height: 20px;
+  width: 20px;
   padding-right: 100px;
 }
 
@@ -117,4 +132,126 @@ body {
 
 .date {
   font-weight: bold;
+}
+
+/* Confirm Your Information Classes */
+.standard-text {
+  color: white;
+  font: serif;
+}
+
+.left-float-everything {
+  float: left;
+  background-color: rgba(215, 44, 44, 0.5);
+}
+
+.right-float-everything {
+  float: right;
+  background-color: rgba(50, 69, 145, 0.6);
+}
+
+.section-header {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.left-wrapper {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-rows: auto auto auto auto auto;
+  grid-gap: 10px;
+  background-color: rgba(215, 44, 44, 0.5);
+  padding: 10px;
+}
+
+.right-wrapper {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-rows: auto auto auto auto;
+  grid-gap: 10px;
+  background-color: rgba(50, 69, 145, 0.5);
+  padding: 10px;
+}
+
+.subsection-header {
+  font-weight: bold;
+  text-decoration: underline;
+  color: white;
+}
+
+/* Left Side Attributes */
+
+.DOB_wrapper {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-rows: auto auto auto auto auto;
+  background-color: rgba(215, 44, 44, 0.5);
+}
+
+.Date_Of_Birth_Subwrapper {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: auto auto auto auto auto auto;
+}
+
+#DOB_Text {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.address_wrapper {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-rows: auto auto auto auto auto;
+  background-color: rgba(215, 44, 44, 0.5);
+}
+
+.location_subwrapper {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: auto auto auto;
+}
+
+.same_as_subwrapper {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: auto auto auto auto;
+}
+
+#sameAs_textBox {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.ID_wrapper {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-rows: auto auto;
+  background-color: rgba(215, 44, 44, 0.5);
+}
+
+/* Right Side */
+
+.action-item {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: auto auto auto;
+  background-color: rgba(50, 69, 145, 0.5);
+}
+
+#text-box {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  font-size: 15px;
+  background-color: rgba(50, 69, 145, 0.5);
+}
+
+#icon-box {
+  object-fit: scale-down;
+  height: 25px;
+  width: 25px;
 }
